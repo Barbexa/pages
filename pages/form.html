@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>My Campus</h2>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="form.html">Register</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#places">Places</a></li>
+                 
+            </ul>
+        </nav>
+    </header>
+
+    <!--Form Registration Page-->
+<section id="register">
+    <section class="form">
+        <div class="register">
+            <header>Registration</header>
+            <form action="#">
+                <div class="form-first">
+                    <div class="personal">
+                        <fieldset class="fieldset">
+                            <legend class="title">Personal Details</legend>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="fname">First Name:</label>
+                                <input type="text"  name="fname" placeholder="Input Your Name" required>
+                            </div>
+
+
+                            <div class="input-field">
+                                <label for="sname">Surname:</label>
+                                <input type="text"  name="sname" placeholder="Input Your Surname" required>
+                            </div>
+
+
+                           <div class="input-field">
+                                <label for="fdate">Date of Birth:</label>
+                                <input type="date"  name="fdate" placeholder="Enter Birth date" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label for="pgender"></label>
+                                    Gender:
+                                </label>
+                                    <select id="dropdown"  name="gender" placeholder="Gender" required>
+                                        <option>Select a gender</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                            </div>
+
+
+                            <div class="input-field">
+                                <label for="pnumber">Phone Number:</label>
+                                <input type="number"  name="pnumber" placeholder="+234  ---  ---  ----" required>
+                            </div>
+                            
+
+                            <div class="input-field">
+                                <label for="fdecade">Favourite Decade:</label>
+                                <input type="datetime"  name="fdecade" placeholder="Enter Favourite Decade" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label for="spassword">Password:</label>
+                                <input type="password"  name="spassword" placeholder="Enter Password" required>
+                            </div>
+                            
+
+                            <div class="input-field">
+                                <label for="fdate">Email:</label>
+                                <input type="date"  name="fdate" placeholder="Enter Enter" required>
+                            </div>
+                        </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="optional"></div>
+                        <fieldset class="fieldset">
+                            <legend class="title">Optional Details</legend>
+
+                        <div class="fields">
+                            <div  id="pets"  class="input-fields">
+                                <p>Select Your Favourite Pet</p>
+                                <!--<p>
+                                    <input type="radio" id="Dog" name="Pet">
+                                    <label for="Dog">Dog</label>
+
+                                    <input type="radio" id="Dog" name="Pet">
+                                    <label for="Dog">Dog</label>
+
+                                    <input type="radio" id="Dog" name="Pet">
+                                    <label for="Dog">Dog</label>
+
+                                    <input type="radio" id="Dog" name="Pet">
+                                    <label for="Dog">Dog</label>-->
+                                    <label for="Dog">
+                                        <input class="radio-check" type="radio" id="Dog" name="Pet">
+                                        Dog
+                                    </label>
+ 
+                                    <label for="Dog">
+                                        <input class="radio-check" type="radio" id="Cat" name="Pet">
+                                        Cat
+                                    </label>
+ 
+                                    <label for="Dog">
+                                        <input class="radio-check" type="radio" id="Rabbit" name="Pet">
+                                        Rabbit
+                                    </label>
+
+                                    <label for="Dog">
+                                        <input class="radio-check" type="radio" id="Parrot" name="Pet">
+                                        Parrot
+                                    </label>
+                               <!--</p>-->
+                                </p>
+                            </div>
+
+
+                            <div class="input-fields">
+                                <p>Select Your Favourite Lecturer</p>
+                                <!--<p>
+                                    <input type="checkbox" name="Mallama" id="Mallama">
+                                    <label for="Mallama">Mallama</label>
+
+                                    <input type="checkbox" name="Mallama" id="Mallama">
+                                    <label for="Mallama">Mallama</label>
+
+                                    <input type="checkbox" name="Mallama" id="Mallama">
+                                    <label for="Mallama">Mallama</label>
+                                </p>-->
+                                <!--<p>-->
+                                    <label for="Isaac Newton">  
+                                        <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                        Isaac Newton
+                                    </label>
+ 
+                                    <label for="Albert Eistein">
+                                        <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                        Albert Eistein
+                                    </label>
+ 
+                                    <label for="Georg Simon Ohm">
+                                        <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                        Georg Simon Ohm
+                                    </label>
+                                <!--</p>-->
+                            </div>
+
+
+                           <div class="input-fields">
+                            <p>Select Your Programs</p>
+                            <!--<p>
+                                <input type="checkbox" name="Mallama" id="Mallama">
+                                <label for="Mallama">Mallama</label>
+
+                                <input type="checkbox" name="Mallama" id="Mallama">
+                                <label for="Mallama">Mallama</label>
+
+                                <input type="checkbox" name="Mallama" id="Mallama">
+                                <label for="Mallama">Mallama</label><br>
+
+                                <input type="checkbox" name="Mallama" id="Mallama">
+                                <label for="Mallama">Mallama</label>
+
+                                <input type="checkbox" name="Mallama" id="Mallama">
+                                <label for="Mallama">Mallama</label>
+
+                                <input type="checkbox" name="Mallama" id="Mallama">
+                                <label for="Mallama">Mallama</label>
+                            </p>-->
+                            <!--<p>-->
+                                <label for="Mallama">
+                                    <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                    BSc. Computer Science
+                                </label>
+
+                                <label for="Mallama">
+                                    <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                    BSc. Software Engineering
+                                </label>
+
+                                <label for="Mallama">
+                                    <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                    BSc. Information Technology
+                                </label><!--<br>-->
+
+                                <label for="Mallama">
+                                    <input class="radio-check" type="checkbox" name="Mallama" id="cbs">
+                                    BSc. Cybersecurity
+                                </label>
+ 
+                                <label for="BSc. Information and Media Studies">
+                                    <input class="radio-check" type="checkbox" name="BSc. Information and Media Studies" id="ims"> 
+                                    BSc. Information and Media Studies
+                               </label>
+                            </div>
+
+                            <div class="button">
+                                <input type="submit" value="Register">
+                            </div>
+
+                            
+                        </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+            
+            
+        </div>
+    </section>
+</section>
+
+    
+</body>
+</html>

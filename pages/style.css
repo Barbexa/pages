@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+body{
+    background: linear-gradient(#3475ca,#7da6cf, #4070f4);
+}
+.logo h2{
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    padding-left: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+nav ul li{
+    padding-left: 20px;
+    color: #fff;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #3325cf;
+    transition: .4s;
+}
+/*main{
+    padding: 20px;
+    background: #3475ca;
+}*/
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #3475ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+button{
+    background-color: azure;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero .content{
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+}
+
+.hero .content h1{
+    color: #fff;
+    font-size: 60px;
+}
+.hero .content p{
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+.footer{
+    background: #3475ca;
+    color: #fff;
+    border-top: 2px solid;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.footer-container .logo{
+    color: #000;
+    margin-bottom: 1rem;
+}
+.footer-container .footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.social a {
+    font-size: 24px;
+    color: #000;
+    margin-right: 1rem;
+}
+.footer-box h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.heading h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.flex-box{
+    background-color: #3475ca;
+    color: #2e2e2e;
+}
+.flex-box .gallery{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.flex-box .gallery img{
+    width: 200px;
+    height: 200px;
+    margin-top: 0;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.flex-box .gallery img:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 9px;
+    padding: 10px;
+    background: #1c384a;
+}

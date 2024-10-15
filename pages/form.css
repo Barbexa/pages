@@ -178,7 +178,13 @@ form .fields .input-fields{
     height: 42px;
     margin: 8px 0;
 }
-
+.radio-check{
+    vertical-align: middle;
+    position: relative ;
+    margin: 0 1rem 0 0;
+    display: inline;
+    width: unset;
+}
  .heading h3{
     margin-top: 20px;
     margin-bottom: 10px;
